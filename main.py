@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 #
-# This file is part of Colorlite.
+# This file is based on Colorlite (https://github.com/enjoy-digital/colorlite)
 #
 # Copyright (c) 2020-2022 Florent Kermarrec <florent@enjoy-digital.fr>
+# Copyright (c) 2023 Jonathan Bisson <bjonnh-github@bjonnh.net>
 # SPDX-License-Identifier: BSD-2-Clause
 
 from liteeth.phy.ecp5rgmii import LiteEthPHYRGMII
