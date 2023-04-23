@@ -31,11 +31,11 @@ sigrok-cli -i dump.sr -O ascii
 ```
 ## See a video
 
-[https://kraut.zone/w/k2qy5PXbBuHhozcDf9QgbP](Kraut.zone Simple FPGA logic analyzer with triggers)
+[![Demo](https://kraut.zone/lazy-static/previews/9eab62a9-1530-4d78-b685-2ea261f50b67.jpg)](https://kraut.zone/w/k2qy5PXbBuHhozcDf9QgbP)
 
 ## Sources and useful stuff
 
-Started with [https://github.com/enjoy-digital/colorlite](colorlite project) as a base.
+Started with [Colorlite](https://github.com/enjoy-digital/colorlite) as a base.
 
-[https://sigrok.org](Sigrok)
+[Sigrok](https://sigrok.org) to display ascii waves
 
