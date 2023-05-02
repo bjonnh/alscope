@@ -139,8 +139,8 @@ def main():
     if args.flash:
         prog = soc.platform.create_programmer()
         os.system("cp bit_to_flash.py build/gateware/")
-        os.system("cd build/gateware && ./bit_to_flash.py colorlite.bit colorlite.svf.flash")
-        prog.load_bitstream(os.path.join(builder.gateware_dir, soc.build_name + ".svf.flash"))
+        os.system("cd build/gateware && ./bit_to_flash.py colorlite.bit colorlite.flash.svf")
+        prog.load_bitstream(os.path.join(builder.gateware_dir, soc.build_name + ".flash.svf"))
 
 
 if __name__ == "__main__":
