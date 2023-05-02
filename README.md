@@ -12,7 +12,7 @@ https://github.com/YosysHQ/oss-cad-suite-build
 ## Build and boot the board
 
 ```shell
-./main.py --ip-address=10.0.0.42 --build --flash
+./main.py --ip-address=10.0.0.42 --build --load
 ```
 
 ## Start the server
